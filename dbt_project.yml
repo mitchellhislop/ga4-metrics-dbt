@@ -1,18 +1,18 @@
 # Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: "mph-ga4-site"
+name: "mph_ga4_site"
 version: "1.0.0"
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: "mph-ga4-site"
+profile: "mph_ga4_site"
 
 # These configurations specify where dbt should look for different types of files.
-source-paths: ["models"]
+model-paths: ["models"]
 analysis-paths: ["analysis"]
 test-paths: ["tests"]
-data-paths: ["data"]
+seed-paths: ["data"]
 macro-paths: ["macros"]
 snapshot-paths: ["snapshots"]
 
@@ -33,7 +33,7 @@ vars:
 
 # Model config
 models:
-    mph-ga4-site:
+    mph_ga4_site:
         marts:
             core:
                 materialized: table

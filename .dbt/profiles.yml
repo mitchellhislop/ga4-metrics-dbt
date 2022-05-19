@@ -1,5 +1,5 @@
 # dbt profile yaml file with multiple environments
-mph-ga4-site:
+mph_ga4_site:
  target: dev
  outputs:
   dev:
