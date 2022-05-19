@@ -1,12 +1,12 @@
 # Project names should contain only lowercase characters
 # and underscores. A good package name should reflect your organization's
 # name or the intended use of these models
-name: "stacktonic_example_project"
+name: "mph-ga4-site"
 version: "1.0.0"
 config-version: 2
 
 # This setting configures which "profile" dbt uses for this project.
-profile: "stacktonic_example_project"
+profile: "mph-ga4-site"
 
 # These configurations specify where dbt should look for different types of files.
 source-paths: ["models"]
@@ -33,7 +33,7 @@ vars:
 
 # Model config
 models:
-    stacktonic_example_project:
+    mph-ga4-site:
         marts:
             core:
                 materialized: table
